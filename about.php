@@ -54,7 +54,7 @@ header("Location:User.php");
           <ul class="nav navbar-nav">
             <li><a href="http://rosterroo.site88.net/index.php">Home</a></li>
              <li><a href="list">Rosters</a></li>
-            <li  class="http://rosterroo.site88.net/about.php"><a href="about">About Us</a></li>
+            <li  class="active"><a href="http://rosterroo.site88.net/about.php">About Us</a></li>
             <li><a href="http://rosterroo.site88.net/contact.php">Contact</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
