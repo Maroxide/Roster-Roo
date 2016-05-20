@@ -36,7 +36,7 @@ header("Location:User.php");
 })
   </script>
 
-  <link rel="shortcut icon" href="food.ico">
+  <link rel="shortcut icon" href="favicon.ico">
   </head>
 
   <body>
