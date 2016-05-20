@@ -41,7 +41,7 @@ $('#clickme').on('click', function() {
             bootstrap_alert.warning('Give us a minute to fix the site.');
 });
   </script>
-	<link rel="shortcut icon" href="food.ico">
+	<link rel="shortcut icon" href="favicon.ico">
   </head>
 
   <body>
