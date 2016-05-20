@@ -62,7 +62,7 @@ $('#clickme').on('click', function() {
           <ul class="nav navbar-nav">
             <li class="active"><a href="http://rosterroo.site88.net/index.php">Home</a></li>
              <li><a href="list">Rosters</a></li>
-            <li><a href="about">About Us</a></li>
+            <li><a href="http://rosterroo.site88.net/about.php">About Us</a></li>
             <li><a href="http://rosterroo.site88.net/contact.php">Contact</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
