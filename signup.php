@@ -121,7 +121,11 @@ function reportErrors(errors){
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
            <h4 class="modal-title" id="myModalLabel">A little helping hand...</h4>
       </div>
+<<<<<<< HEAD
       
+=======
+      <!-- Updated Wording -Niall -->
+>>>>>>> origin/master
       <div class="modal-body">
         HELP!
         <br>

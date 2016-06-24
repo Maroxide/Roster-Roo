@@ -37,9 +37,15 @@ $row=mysql_fetch_array($result);
 $_SESSION['fname'] =$row['fname'];
 $_SESSION['lname'] =$row['lname'];
 $_SESSION['email'] =$row['email'];
+<<<<<<< HEAD
 $_SESSION['userid'] =$row['userid']; 
 $_SESSION['cname'] =$row['cname']; 
 $sow = $row['userid'];
+=======
+$_SESSION['id'] =$row['id']; 
+$_SESSION['points'] =$row['points']; 
+$sow = $row['id'];
+>>>>>>> origin/master
 header("location:http://rosterroo.site88.net/user.php?id=$sow");
 }
 else {

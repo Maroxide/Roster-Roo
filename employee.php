@@ -116,7 +116,11 @@ header("location:http://rosterroo.site88.net/Login.php");
 
       
     <div class="col-sm-offset-0 col-sm-10">
+<<<<<<< HEAD
         <input type = "submit" class="btn btn-success" id = "clickme2" value="Submit!" name="clickme2"/>&nbsp;&nbsp;&nbsp;
+=======
+        <input type = "submit" class="btn btn-success" id = "clickme" value="Submit!" name="clickme"/>&nbsp;&nbsp;&nbsp;
+>>>>>>> origin/master
          <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
   Does someone need help?
 </button>

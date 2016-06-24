@@ -59,15 +59,24 @@ header("location:http://rosterroo.site88.net/Login.php");
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>                        
           </button>
+<<<<<<< HEAD
          <?php echo'<a class="navbar-brand" href=http://rosterroo.site88.net/user.php?id='.$_SESSION['userid'].'">Roster-Roo</a>'?>
+=======
+         <?php echo'<a class="navbar-brand" href=http://rosterroo.site88.net/user.php?id='.$_SESSION["userid"].'">Roster-Roo</a>'?>
+>>>>>>> origin/master
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav">
             <?php echo '<li class="active"><a href="http://rosterroo.site88.net/user.php?id='.$_SESSION["userid"].'">Home</a></li>'; ?>  
+<<<<<<< HEAD
            <?php echo '<li> <a href= "http://rosterroo.site88.net/viewroster.php?id='.$_SESSION["userid"].'">Assign Rosters</a></li>'; ?>
            <?php echo '<li><a href="http://rosterroo.site88.net/roster.php?id=' .$_SESSION["userid"].'"> Create Shift</a></li>'; ?>  
             <?php echo '<li><a href="http://rosterroo.site88.net/employee.php?id=' .$_SESSION["userid"].'">Create Employees</a></li>'; ?> 
             <?php echo '<li><a href="http://rosterroo.site88.net/viewemployees.php?id=' .$_SESSION["userid"].'">View Roster/Notify Employee</a></li>'; ?>  
+=======
+           <?php echo '<li><a href="http://rosterroo.site88.net/roster.php?id=' .$_SESSION["userid"].'">Rosters</a></li>'; ?>  
+            <?php echo '<li><a href="http://rosterroo.site88.net/employee.php?id=' .$_SESSION["userid"].'">Employees</a></li>'; ?>  
+>>>>>>> origin/master
           </ul>          
             <ul class="nav navbar-nav navbar-right">
             	
@@ -81,7 +90,11 @@ header("location:http://rosterroo.site88.net/Login.php");
        
           </ul>
         </li>
+<<<<<<< HEAD
            
+=======
+            <?php echo '<li><a href="Post.php?id='.$_SESSION["userid"].'" data-toggle="tooltip" data-placement="bottom" title="Post a new blog" ><span class="glyphicon glyphicon-pencil"></span>Post</a></li>';?>
+>>>>>>> origin/master
             <li><a href="http://rosterroo.site88.net/redirect.php"><span class="glyphicon glyphicon-log-out"></span>Logout</a></li>
           </div>
           </ul>
@@ -121,6 +134,7 @@ header("location:http://rosterroo.site88.net/Login.php");
 $dbname = "a6310979_roster"; // the name of the database that you are going to use for this project
 $dbuser = "a6310979_user"; // the username that you created, or were given, to access your database
 $dbpass = "Roster123"; // the password that you created, or were given, to access your database
+<<<<<<< HEAD
  $userid = $_SESSION['userid'];
 mysql_connect($dbhost, $dbuser, $dbpass) or die("MySQL Error: " . mysql_error());
 mysql_select_db($dbname) or die("MySQL Error: " . mysql_error());
@@ -131,13 +145,32 @@ while($row=mysql_fetch_array($result)){
 
 $empname =$row['empname'];
 	$empemail=$row['empemail'];
+=======
+ 
+mysql_connect($dbhost, $dbuser, $dbpass) or die("MySQL Error: " . mysql_error());
+mysql_select_db($dbname) or die("MySQL Error: " . mysql_error());
+    if(!isset($_GET['by'])){
+ $sql = "SELECT *FROM blog LIMIT 0, 10";
+$result = mysql_query($sql);
+while($row=mysql_fetch_array($result)){
+
+$title =$row['title'];
+	$description=$row['description'];
+	$id=$row['postID'];
+	$reg=$row['reg_date'];
+>>>>>>> origin/master
 
 		
 //-display the result of the array
 echo '</div></div>';
 echo '<div class="container">';
 echo '<div class="jumbotron">';
+<<<<<<< HEAD
 echo '<h3><u>Employee Name:</u> '  .$empname .'</a></h3><br><small>Email: <i>' .$empemail. '</i></small>';
+=======
+echo '<h3><u>Title:</u> <a href="Userblog.php?id='.$id.'">'  .$title .'</a></h3><br><small>Date: <i>' .$reg. '</i></small>';
+echo "<h4><u>Description: </u><i>" .$description. "</i></h4><br><h5><b>Points: ".$points. "</b></h5>";
+>>>>>>> origin/master
 echo "</div>";
 echo "</div>";
 }

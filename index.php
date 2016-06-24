@@ -137,7 +137,13 @@ $('#clickme').on('click', function() {
 
   
  </div>
+<<<<<<< HEAD
     
+=======
+  <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
+    What's this?
+  </button>    
+>>>>>>> origin/master
   <br>
     </div>
 

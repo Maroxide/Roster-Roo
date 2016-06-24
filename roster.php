@@ -4,7 +4,11 @@ if(!$_SESSION['email']){
 header("location:http://rosterroo.site88.net/Login.php");
 }
 ?>
+<<<<<<< HEAD
 <!DOCTYPE html>
+=======
+!DOCTYPE html>
+>>>>>>> origin/master
 <html>
   <head>
     <title>Roster-Roo | <?php echo $_SESSION['cname']; ?> Roster</title>
@@ -27,7 +31,11 @@ header("location:http://rosterroo.site88.net/Login.php");
 
   <body>
    <div class="page-header">
+<<<<<<< HEAD
        <h1><img alt="Logo" src="logo.png"/> Roster-Roo <small>Roster Making Made Easy</small></h1>
+=======
+       <h1><img alt="Logo" src="logo.jpg"/> Roster-Roo <small>Roster Making Made Easy</small></h1>
+>>>>>>> origin/master
    </div>
 
    <nav class="navbar navbar-inverse">
@@ -42,10 +50,16 @@ header("location:http://rosterroo.site88.net/Login.php");
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav">
+<<<<<<< HEAD
             <?php echo '<li class="active"><a href="http://rosterroo.site88.net/user.php?id='.$_SESSION["userid"].'">Home</a></li>'; ?> 
             <?php echo '<li> <a href= "http://rosterroo.site88.net/viewroster.php?id='.$_SESSION["userid"].'">Rosters</a></li>'; ?>
            <?php echo '<li><a href="http://rosterroo.site88.net/roster.php?id=' .$_SESSION["userid"].'"> Create Rosters</a></li>'; ?>  
             <?php echo '<li><a href="http://rosterroo.site88.net/employees.php?id=' .$_SESSION["userid"].'">Create Employees</a></li>'; ?>  
+=======
+            <?php echo '<li class="active"><a href="http://rosterroo.site88.net/user.php?id='.$_SESSION["userid"].'">Home</a></li>'; ?>  
+           <?php echo '<li><a href="http://rosterroo.site88.net/roster.php?id=' .$_SESSION["userid"].'">Rosters</a></li>'; ?>  
+            <?php echo '<li><a href="http://rosterroo.site88.net/employees.php?id=' .$_SESSION["userid"].'">Employees</a></li>'; ?>  
+>>>>>>> origin/master
           </ul>          
             <ul class="nav navbar-nav navbar-right">
             	
@@ -120,12 +134,20 @@ if (isset($_REQUEST['submitted'])) {
 
          <form role="form" method="post" action="rostersuccess.php" onSubmit="return validate(this);" name="form">
 
+<<<<<<< HEAD
        <label>Month:</label>
       <input type="text" class="form-control"  id="month" name="month" placeholder="Example: 'October' ">
 <br>
       <br>
 
     
+=======
+      <label>Month:</label>
+      <input type="text" class="form-control" id="month" name="month" placeholder="Example: 'June' ">
+      <br>
+      <br>
+
+>>>>>>> origin/master
       <label>Date:</label>
       <input type="text" class="form-control"  id="date" name="date" placeholder="Example: '22-05-2016' ">
 <br>
