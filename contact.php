@@ -1,7 +1,7 @@
 <?php
 session_start();
 if(isset($_SESSION['email'])){
-header("Location:User.php");
+header("Location:http://rosterroo.site88.net/user.php");
 }
 ?>
 
@@ -36,7 +36,7 @@ header("Location:User.php");
 })
   </script>
 
-  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="shortcut icon" href="food.ico">
   </head>
 
   <body>
@@ -57,21 +57,12 @@ header("Location:User.php");
           <ul class="nav navbar-nav">
             <li><a href="http://rosterroo.site88.net/index.php">Home</a></li>
              <li><a href="list">Rosters</a></li>
-            <li><a href="about">About Us</a></li>
-            <li class="active"><a href="contact">Contact</a></li>
+            <li><a href="http://rosterroo.site88.net/about.php">About Us</a></li>
+            <li class="active"><a href="http://rosterroo.site88.net/contact.php">Contact</a></li>
            
           </ul>
           <ul class="nav navbar-nav navbar-right">
-             <li>
-          <form class="navbar-form" action="search.php?go" method="post" role="search">
-    <div class="input-group">
-      <input type="text" class="form-control" placeholder="Search" name="srchterm" id="srchterm">
-      <div class="input-group-btn">
-        <button class="btn btn-default" name ="submit" type="submit"><i class="glyphicon glyphicon-search"></i></button>
-      </div>
-    </div>
-    </form>
-    </li>
+        
             <li><a href="Signup" data-toggle="tooltip" data-placement="bottom" title="Keep up to date with everything Roster-Roo!!" ><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
             <li><a href="http://rosterroo.site88.net/Login.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
           </div>

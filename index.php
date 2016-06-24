@@ -1,7 +1,7 @@
 <?php
 session_start();
 if(isset($_SESSION['email'])){
-header("Location:User.php");
+header("Location:http://rosterroo.site88.net/user.php");
 }
 ?>
 <!DOCTYPE html>
@@ -41,12 +41,12 @@ $('#clickme').on('click', function() {
             bootstrap_alert.warning('Give us a minute to fix the site.');
 });
   </script>
-	<link rel="shortcut icon" href="favicon.ico">
+  <link rel="shortcut icon" href="favicon.ico">
   </head>
 
   <body>
      <div class="page-header">
-      <h1><img alt="Logo" src="logo.jpg"/> Roster-Roo <small>Roster Making Made Easy</small></h1>
+      <h1><img alt="Logo" src="logo.png"/> Roster-Roo <small>Roster Making Made Easy</small></h1>
   </div>
     <nav class="navbar navbar-inverse">
       <div class="container-fluid">
@@ -61,12 +61,12 @@ $('#clickme').on('click', function() {
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav">
             <li class="active"><a href="http://rosterroo.site88.net/index.php">Home</a></li>
-             <li><a href="list">Rosters</a></li>
-            <li><a href="about">About Us</a></li>
+            
+            <li><a href="http://rosterroo.site88.net/about.php">About Us</a></li>
             <li><a href="http://rosterroo.site88.net/contact.php">Contact</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="Signup" data-toggle="tooltip" data-placement="bottom" title="This is not quite ready yet, sozzles." ><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+            <li><a href="http://rosterroo.site88.net/signup.php" data-toggle="tooltip" data-placement="bottom" title="Sign Up for a Roster-Roo account. Dont worry they're Free!!" ><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
             <li><a href="http://rosterroo.site88.net/Login.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
           </div>
           </ul>
@@ -76,24 +76,14 @@ $('#clickme').on('click', function() {
     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-          <h4 class="modal-title" id="myModalLabel">What this is all about...</h4>
-         </div>
-          <div class="modal-body">
-        This page is all about uploading and reviewing personal projects that people will upload and explain each step and process of the project.<br>
-        The basis of each project will be determined by the uploader including programming language or web design.
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
+     
+     
     </div>
   </div>
 </div>
 <div id ="alert_placeholder">
 </div>
-  <div class="alert alert-info" role="alert">Be sure to sign up and keep up to date on users uploading material!
-</div>
+  
     <div class="container">
    <div class="jumbotron">
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -108,31 +98,32 @@ $('#clickme').on('click', function() {
   <!-- Slide Content -->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <center><img src="img1.png" alt="image1"></center>
+      <center><img src="Image1.jpg" alt="Image1"></center>
        <div class="carousel-caption">
-    <h2>Welcome to Roster-Roo!</h2>
-    <p>Making Rosters For You</p>
+
   </div>
     </div>
 
     <div class="item">
-      <center><img src="img2.png" alt="Image2"></center>
+      <center><img src="Image2.jpg" alt="Image2"></center>
        <div class="carousel-caption">
-    <h4>...</h4>
-    <p>...</p>
+
   </div>
     </div>
 
     <div class="item">
-      <center><img src="img3.jpg" alt="Image3"></center>
+      <center><img src="Image3.jpg" alt="Image3"></center>
        <div class="carousel-caption">
-    <h4>...</h4>
-    <p>...</p>
   </div>
     </div>
 
+<div class="item">
+      <center><img src="Image4.jpg" alt="Image3"></center>
+       <div class="carousel-caption">
+  </div>
+    </div>
 
-
+</div>
   <!-- Left and right controls -->
   <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
     <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
@@ -144,12 +135,10 @@ $('#clickme').on('click', function() {
   </a>
 
 
-	
+  
  </div>
-	<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
-		What's this?
-	</button>    
-	<br>
+    
+  <br>
     </div>
 
 
@@ -165,8 +154,8 @@ $('#clickme').on('click', function() {
         <div class="col-md-3"> 
           <h2><a href="tutorial">Tutorial</a></h2>
           <p>So, to get you started, we're gonna have to go through all the steps to setting up, creating and using a profile.</p>
-		 <p>&nbsp;</p>
-		 <p>We'll walk you through the full process with these simple steps:</p>
+     <p>&nbsp;</p>
+     <p>We'll walk you through the full process with these simple steps:</p>
           
           <p><a href="tutorial">more...</a></p></div>
         <div class="col-md-3"> 
@@ -186,19 +175,19 @@ $('#clickme').on('click', function() {
 frameborder="0" style="border:none; overflow:hidden; width:300px; height:600px; background: white; float:left; " 
 
 allowtransparency="true">
-	</iframe>
+  </iframe>
         </div>
 
 
       
       <div class="clearfix visible-lg"></div>
-	  <center>
-	  <footer class ="footer">
-	  <div class = "container">
-	  <p class=" text-muted">Roster-Roo  &copy; 2016</p>
-	  </div>
-	  </footer>
-	  </center>
+    <center>
+    <footer class ="footer">
+    <div class = "container">
+    <p class=" text-muted">Roster-Roo  &copy; 2016</p>
+    </div>
+    </footer>
+    </center>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>

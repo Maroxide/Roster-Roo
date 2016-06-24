@@ -1,7 +1,7 @@
 <?php
 session_start();
 if(isset($_SESSION['email'])){
-header("Location:User.php");
+header("Location:http://rosterroo.site88.net/user.php");
 }
 ?>
 
@@ -53,8 +53,8 @@ header("Location:User.php");
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav">
             <li><a href="http://rosterroo.site88.net/index.php">Home</a></li>
-             <li><a href="list">Rosters</a></li>
-            <li  class="http://rosterroo.site88.net/about.php"><a href="about">About Us</a></li>
+            
+            <li  class="active"><a href="http://rosterroo.site88.net/about.php">About Us</a></li>
             <li><a href="http://rosterroo.site88.net/contact.php">Contact</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
@@ -121,7 +121,7 @@ header("Location:User.php");
  Who is this?
 </button>
 <blockquote>
-  <p>"We've definitely bitten off more than we can chew!"</p>
+  <p>"This isn't House Music. I don't quite know what it is."</p>
   <small>Aaron O'Doherty on <cite title="Roster-Roo.com">Roster-Roo.com</cite></small>
 </blockquote>
     </div>
@@ -135,7 +135,10 @@ header("Location:User.php");
  Who is this?
 </button>
 <blockquote>
-  <p>"We've definitely bitten off more than we can chew!"</p>
+  <p>" if (pub = open)<br>
+      { drink = yes; }<br>
+      else()<br>
+      { goto = offlicence; }"</p>
   <small>Alan Coleman on <cite title="Roster-Roo.com">Roster-Roo.com</cite></small>
 </blockquote>
     </div>
@@ -149,7 +152,7 @@ header("Location:User.php");
  Who is this?
 </button>
 <blockquote>
-  <p>"We've definitely bitten off more than we can chew!"</p>
+  <p>"I'll have a Cappucino from Cafe Nero."</p>
   <small>Dylan Walker on <cite title="Roster-Roo.com">Roster-Roo.com</cite></small>
 </blockquote>
     </div>

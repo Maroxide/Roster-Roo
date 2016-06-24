@@ -1,7 +1,7 @@
 ﻿<?php
 session_start();
 if(isset($_SESSION['email'])){
-header("Location:http://rosterroo.site88.net/user.php");
+header("Location:User.php");
 }
 ?>
 <!DOCTYPE html>
@@ -12,8 +12,8 @@ header("Location:http://rosterroo.site88.net/user.php");
     <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/darkly/bootstrap.min.css">
-
-<!-- Angular js import  -->
+<!-- You're a tool conor --> 
+<!-- Angular js import motherfucker -->
 <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
 
 <!-- jQuery library -->
@@ -35,13 +35,13 @@ header("Location:http://rosterroo.site88.net/user.php");
 })
   </script>
 
-	<link rel="shortcut icon" href="food.png">
+	<link rel="shortcut icon" href="favicon.ico">
   </head>
 
   <body>
-  	<div class="page-header">
-  		<h1><img alt="Logo" src="logo.png"/> Roster-Roo <small>Roster Making Made Easy</small></h1>
-	</div>
+  <div class="page-header">
+      <h1><img alt="Logo" src="logo.jpg"/> Roster-Roo <small>Roster Making Made Easy</small></h1>
+  </div>
     <nav class="navbar navbar-inverse">
       <div class="container-fluid">
         <div class="navbar-header">
@@ -50,19 +50,18 @@ header("Location:http://rosterroo.site88.net/user.php");
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>                        
           </button>
-           <a class="navbar-brand" href="http://rosterroo.site88.net/index.php">Roster-Roo</a>
+          <a class="navbar-brand" href="http://rosterroo.site88.net/index.php">Roster-Roo</a>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav">
-            <li><a href="http://rosterroo.site88.net/index.php">Home</a></li>
-
-             <li><a href="http://rosterroo.site88.net/about.php">About Us</a></li>
+            <li class="active"><a href="http://rosterroo.site88.net/index.php">Home</a></li>
+             <li><a href="list">Rosters</a></li>
+            <li><a href="http://rosterroo.site88.net/about.php">About Us</a></li>
             <li><a href="http://rosterroo.site88.net/contact.php">Contact</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
-         
-            <li><a href="http://rosterroo.site88.net/signup.php" data-toggle="tooltip" data-placement="bottom" title="Make your own work roster!!" ><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-            <li class="active"><a href="http://rosterroo.site88.net/Login.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+            <li><a href="Signup" data-toggle="tooltip" data-placement="bottom" title="This is not quite ready yet, sozzles." ><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+            <li><a href="http://rosterroo.site88.net/Login.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
           </div>
           </ul>
         </div>
@@ -77,7 +76,7 @@ header("Location:http://rosterroo.site88.net/user.php");
           <h4 class="modal-title" id="myModalLabel">A little helping hand...</h4>
       </div>
       <div class="modal-body">
-        So you've made it to the Login part of the site. That means you made an account, and are trying to Login to create rosters, so you can get started that's good. We like you.<br>        Judging by you clicking on this, you need help. That's no problem. Just means you're not a techy perhaps.<hr>
+        So you've made it to the Login part of the site, good for you, you're brilliant. That means you made a page, and are trying to Login to that page, so you can get started That's good. I like you.<br>        Judging by you clicking on this, you need help. That's no problem. Just means you're not a techy perhaps.<hr>
         <br>
         What you're gonna want to do, is just enter in all of your silly little credentials (Email, Password) and I'll let the server do the rest.<br>
         Trust me, it's easy!
@@ -91,7 +90,7 @@ header("Location:http://rosterroo.site88.net/user.php");
 <div id = "alert_placeholder"></div>
     <div class="container">
       <div class="jumbotron">
-        <h1>Come to login?</h1>      
+        <h1>Leaving so soon?</h1>      
          <br>
          <form action="check_login.php"  method="post" >
     <div class="form-group">
